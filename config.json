@@ -1,0 +1,14 @@
+{
+    "subs": [
+      {
+          "name": "widescreenwallpaper",
+          "percent": 100,
+          "sort": "top",
+          "sortType": "month",
+          "limit": 20
+      }
+    ],
+    "time": "30",
+    "cacheTime": "600",
+    "over18": "false"
+}
