@@ -66,10 +66,11 @@ def get_wallpapers(subredditName, sortlength, sort, limit):
           autoExist = True
     keys = list(map(lambda x: int(x),list(paramDic.keys())))
     keys.sort(reverse=True)
-    if autoExist:
-      filteredSubmissions.append([paramDic[f"9"][0],submission.__dict__["title"],subredditName])
-    else:
-      filteredSubmissions.append([paramDic[f"{keys[0]}"],submission.__dict__["title"],subredditName])
+    if len(paramDic.keys()): 
+      if autoExist: 
+        filteredSubmissions.append([paramDic[f"9"][0],submission.__dict__["title"],subredditName])
+      else:
+        filteredSubmissions.append([paramDic[f"{keys[0]}"],submission.__dict__["title"],subredditName])
   return filteredSubmissions
   
 

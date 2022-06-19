@@ -78,7 +78,6 @@ def setWallpaper():
         os.system(f"osascript -e 'tell application \"Finder\" to set desktop picture to POSIX file \"{url}\"'")
     def setWallpaperCrossPlatform():
         for submission in submissions:
-            submission = random.choice(submissions)
             # if platform is windows
             if os.name == 'nt':
                 setWallpaperOnWindows(submission[0],getFileNameFromSubmission(submission))
