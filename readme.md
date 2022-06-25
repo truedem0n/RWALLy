@@ -1,5 +1,7 @@
 RWALLy
-cycles through a subreddit wallpapers
+Downloads a subreddit wallpapers to a folder.
+
+Folder can be used for slideshow wallpapers on Windows,mac, and linux.
 
 Requirements
 pip install -R requirements.txt
