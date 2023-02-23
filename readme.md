@@ -7,6 +7,7 @@ Requirements
 pip install -R requirements.txt
 
 
+
 Working subs:
 widescreenwallpaper
 wallpaper
